@@ -1,0 +1,28 @@
+ html {
+  margin: 0;
+  background-color: black;
+  height: 90vh;
+  width: 100%;
+  background-image: url("bakgrunn.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+ }
+
+
+
+ #menuButton {
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    left: 43.5%;
+    top: 50%;
+    background: ;
+    border: ;
+    color: green;
+    cursor: pointer;
+    opacity: 0.9;
+    font-size: x-large;
+    
+  
+  }
