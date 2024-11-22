@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #fafafa;
+    margin: 0;
+    padding: 20px;
+}
+
+.calender nav a{
+    display: inline-block;
+
+    margin: 5px;
+    padding: 10px 15px;
+    background: #ddd;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    transition: background 0.3s;
+}
+
+.måner{
+    display: none;
+    width: 1000;
+    margin-top: 20px;
+    background: white;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.måner:target{
+    display: flex;
+    width: 900px;
+}
+
+.dager {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); /* 7 equal columns for days of the week */
+    gap: 10px; /* Adds spacing between cells */
+    max-width: 800px; /* Set a maximum width to constrain the calendar */
+    margin: auto; /* Center the calendar horizontally */
+}
+
+.dager span {
+    display: flex; /* Center content inside spans */
+    justify-content: center;
+    align-items: center;
+    width: 100px; /* Fixed width for each day */
+    height: 80px; /* Fixed height for each day */
+    background: #f0f0f0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    margin: 0; /* Remove any default margin */
+    padding: 0; /* Remove padding */
+    line-height: 1; /* Prevent extra vertical spacing */
+}
+
+.dager span.red {
+    color: red; /* Style for Sundays or special days */
+}
