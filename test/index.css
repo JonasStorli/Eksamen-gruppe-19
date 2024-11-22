@@ -17,12 +17,11 @@
     position: absolute;
     left: 43.5%;
     top: 50%;
-    background: ;
-    border: ;
     color: green;
     cursor: pointer;
     opacity: 0.9;
     font-size: x-large;
+    transform: translate(-50%, -50%)
     
   
   }
