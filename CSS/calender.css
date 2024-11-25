@@ -83,7 +83,7 @@ ul {
     display: flex;
     position: absolute;
     gap: 33%;
-    padding: 0.01%;
+    padding: 50;
     padding-left: 22%;
     margin: 5%;
     text-align: center;
