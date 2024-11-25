@@ -3,7 +3,7 @@
   background-color: black;
   height: 90vh;
   width: 100%;
-  background-image: url("/test/Bilder/bakgrunn.gif");
+  background-image: url("/Bilder/bakgrunn.gif");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -18,10 +18,18 @@
     left: 50%;
     top: 50%;
     color: green;
+    background-color: ;
+    border: none;
+    border-radius: 25px;
     cursor: pointer;
-    opacity: 0.9;
+    opacity: 1;
     font-size: x-large;
+    font-weight: bold;
     transform: translate(-50%, -50%)
+    
     
   
   }
+
+
+  @keyframes
