@@ -82,3 +82,17 @@ nav a{
 .dager span.red {
     color: red; /* Style for Sundays or special days */
 }
+
+ul {
+    display: flex;
+    position: absolute;
+    gap: 80px;
+    padding: 22px;
+    padding-left: 285px;
+    margin: 50px;
+    text-align: center;
+    font-weight: bold;
+    list-style-type: none;
+    grid-template-columns: repeat(7, 1fr);
+}
+
