@@ -103,10 +103,12 @@ ul {
     cursor: pointer;
     left: 80%;
     top: 47%;
-    border: none;
 }
 
-#arrowForward:hover {
-    size: 3;
+#arrowBack {
+    position: absolute;
+    cursor: pointer;
+    left: 17%;
+    top: 47%;
+    
 }
-
