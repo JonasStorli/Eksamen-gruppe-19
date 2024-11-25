@@ -110,3 +110,7 @@ ul {
     border: none;
 }
 
+#arrowForward:hover {
+    size: 3;
+}
+
