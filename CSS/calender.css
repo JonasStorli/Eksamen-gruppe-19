@@ -6,32 +6,52 @@ body {
     padding: 20px;
 }
 
-.calender nav a{
-    display: inline-block;
+h2{
+    position: absolute;
+    display: flex;
+    left: 100px;
+}
 
+
+nav a{
+    margin: 20px;
+}
+
+.nav-btn{
+    display: inline-block;
     margin: 5px;
     padding: 10px 15px;
     background: #ddd;
     border-radius: 5px;
     text-decoration: none;
     color: black;
+    cursor: pointer;
     transition: background 0.3s;
+}
+
+.nav-btn:hover{
+    background-color: #ccc;
 }
 
 .måner{
     display: none;
     width: 1000;
     margin-top: 20px;
+    margin-left: 249px;
     background: white;
     padding: 15px;
+    padding-top: 70px;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    left: 1000px;
 }
 
 .måner:target{
-    display: flex;
+    display: grid;
     width: 900px;
+    align-items: center;
+    justify-content: center;
 }
 
 .dager {
@@ -39,7 +59,7 @@ body {
     grid-template-columns: repeat(7, 1fr); /* 7 equal columns for days of the week */
     gap: 10px; /* Adds spacing between cells */
     max-width: 800px; /* Set a maximum width to constrain the calendar */
-    margin: auto; /* Center the calendar horizontally */
+    margin-left: auto; /* Center the calendar horizontally */
 }
 
 .dager span {
