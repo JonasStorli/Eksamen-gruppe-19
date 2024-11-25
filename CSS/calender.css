@@ -84,12 +84,13 @@ ul {
     position: absolute;
     gap: 33%;
     padding: 0.01%;
-    padding-left: 22%;
+    padding-left: 60%;
     margin: 5%;
     text-align: center;
     font-weight: bold;
     list-style-type: none;
     grid-template-columns: repeat(7, 1fr);
+    transform: translate(-50%,-50%);
 }
 
 .fillerDays {
