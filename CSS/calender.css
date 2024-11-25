@@ -98,3 +98,11 @@ ul {
   }
 
 
+#arrowForward {
+    position: absolute;
+    cursor: pointer;
+    left: 80%;
+    top: 47%;
+    border: none;
+}
+
