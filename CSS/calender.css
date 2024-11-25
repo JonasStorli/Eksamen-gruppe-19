@@ -37,14 +37,13 @@ nav a{
     display: none;
     width: 1000;
     margin-top: 20px;
-    margin-left: 249px;
+    margin-left: 20%;
     background: white;
     padding: 15px;
     padding-top: 70px;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    left: 1000px;
 }
 
 .måner:target{
