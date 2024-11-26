@@ -134,39 +134,92 @@ ul {
     font-weight: bold; 
 }
 
+.christmas:hover {
+    color: transparent;
+    transform: scale(1.25);
+}
 
 .blue:hover::after {
     content: "Sankthans";
     color: black;
+    transform: translate(-9px);
 }
 
 .blue:hover {
     color: transparent;
+    transform: scale(1.25);
 }
 
 #birthday4:hover::after {
     content: "Bursdag Jens";
     color: black;
+    transform: translate(-7px);
 }
 #birthday3:hover::after {
     content: "Bursdag Jonas";
     color: black;
+    transform: translate(-7px);
 }
 #birthday2:hover::after {
     content: "Bursdag Martin";
     color: black;
+    transform: translate(-7px);
 }
 #birthday1:hover::after {
     content: "Bursdag Andreas";
     color: black;
+    transform: translate(-7px);
 }
 
 .birthday:hover {
     color: transparent;
-    transform: scale(1.5);
+    transform: scale(1.25);
 }
 #btn-theme-desember:hover {
     transform: scale(1.5);
     transition: ease-in 300ms;
     color: transparent;
+}
+
+.christmas:hover::after {
+    content: "Julaften";
+    color: black;
+    transform: translate(-9px);
+}
+
+.valentines:hover::after {
+    content: "Valentines";
+    color: black;
+    transform: translate(-9px);
+}
+
+.dager span.easter {
+    background-color: yellow;
+    font-weight: bold; 
+}
+
+.easter:hover {
+    color: transparent;
+    transform: scale(1.25);
+    
+}
+#easter1:hover::after {
+    content: "Skjærtorsdag";
+    color: black;
+    transform: translate(-9px);
+}
+#easter2:hover::after {
+    content: "Langfredag";
+    color: black;
+    transform: translate(-9px);
+}
+#easter3:hover::after {
+    content: "1. påskedag";
+    color: black;
+    transform: translate(-9px);
+}
+#easter4:hover::after {
+    content: "2. påskedag";
+    color: black;
+    transform: translate(-9px);
 }
