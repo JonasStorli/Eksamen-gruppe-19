@@ -106,6 +106,26 @@ section{
     width: 200px; 
     z-index: 10; 
     animation: moveSanta 10s linear;
+    animation-play-state: paused;
+}
+
+
+
+#animationToggle {
+    position: absolute;
+    cursor: pointer;
+    left: 38.8%;
+    top: 66%;
+    z-index: 4;
+    height: 10%;
+    width: 10%;
+    opacity: 0;
+
+}
+
+
+#animationToggle:checked ~ .Santa {
+    animation-play-state: running;
 }
 
 @keyframes moveSanta{
