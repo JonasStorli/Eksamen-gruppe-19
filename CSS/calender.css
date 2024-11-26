@@ -116,58 +116,66 @@ ul {
     
 }
 
-.dager span.birthday {
-    background-color: green;
-    font-weight: bold; 
+/*Sankthans*/
+.blue:hover::after {
+    content: "Sankthans";
+    color: black;
+    transform: translate(-9px);
 }
-.dager span.valentines {
-    background-color: pink;
-    font-weight: bold;
+
+.blue:hover {
+    color: transparent;
+    transform: scale(1.25);
 }
 
 .dager span.blue {
     background-color: lightblue;
     font-weight: bold; 
 }
-.dager span.christmas {
-    background-color:red;
+
+/*Bursdag*/
+.dager span.birthday {
+    background-color: green;
     font-weight: bold; 
-}
-
-
-.blue:hover::after {
-    content: "Sankthans";
-    color: black;
-}
-
-.blue:hover {
-    color: transparent;
 }
 
 #birthday4:hover::after {
     content: "Bursdag Jens";
     color: black;
+    transform: translate(-7px);
 }
 #birthday3:hover::after {
     content: "Bursdag Jonas";
     color: black;
+    transform: translate(-7px);
 }
+
 #birthday2:hover::after {
     content: "Bursdag Martin";
     color: black;
+    transform: translate(-7px);
 }
+
 #birthday1:hover::after {
     content: "Bursdag Andreas";
     color: black;
+    transform: translate(-7px);
 }
 
 .birthday:hover {
     color: transparent;
-    transform: scale(1.5);
+    transform: scale(1.25);
 }
+
+/*Jul*/
+.dager span.christmas {
+    background-color:red;
+    font-weight: bold; 
+}
+
 #btn-theme-desember:hover {
     transform: scale(1.8);
-    transition: ease-in 350ms;
+    transition: ease-in 350ms, color 50ms ease-in;
     color: transparent;
     background: url("/Bilder/stockings.jpg");
     background-size: cover;
@@ -176,3 +184,62 @@ ul {
 
 }
 
+.christmas:hover::after {
+    content: "Julaften";
+    color: black;
+    transform: translate(-9px);
+}
+
+.christmas:hover {
+    color: transparent;
+    transform: scale(1.25);
+}
+
+/*Valentines*/
+.valentines:hover::after {
+    content: "Valentines";
+    color: black;
+    transform: translate(-9px);
+}
+
+.valentines:hover {
+    color: transparent;
+    transform: scale(1.25);
+}
+
+.dager span.valentines {
+    background-color: pink;
+    font-weight: bold;
+}
+
+/*Påske*/
+.dager span.easter {
+    background-color: yellow;
+    font-weight: bold; 
+}
+
+.easter:hover {
+    color: transparent;
+    transform: scale(1.25);
+}
+
+#easter1:hover::after {
+    content: "Skjærtorsdag";
+    color: black;
+    transform: translate(-9px);
+}
+#easter2:hover::after {
+    content: "Langfredag";
+    color: black;
+    transform: translate(-9px);
+}
+#easter3:hover::after {
+    content: "1. påskedag";
+    color: black;
+    transform: translate(-9px);
+}
+#easter4:hover::after {
+    content: "2. påskedag";
+    color: black;
+    transform: translate(-9px);
+}

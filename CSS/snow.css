@@ -20,6 +20,9 @@ section{
     overflow: hidden;
 }
 
+
+
+
 .snow1 {
     position: fixed;
     top: 0;
@@ -59,4 +62,57 @@ section{
 
 
 
+/* Mistletoe */
+#mistleToe1 {
+    cursor: pointer;
+    position: absolute;
+    top: 21%;
+    left: 21.7%;
+    height: 100px;
+    width: 100px;
+    animation: mistletoe 1s ease-in-out infinite;
+    animation-play-state: paused;
 
+}
+
+#mistleToe2 {
+    cursor: pointer;
+    position: absolute;
+    top: 21%;
+    left: 75.6%;
+    height: 100px;
+    width: 100px;
+    animation: mistletoe 1s ease-in-out infinite;
+    animation-play-state: paused;
+}
+
+#mistleToe1:hover, #mistleToe2:hover {
+    animation-play-state: running;
+}
+
+@keyframes mistletoe {
+    0%{transform:rotate(-5deg)}
+    50%{transform:rotate(3deg)}
+    100%{transform:rotate(-5deg)}
+}
+
+
+
+.Santa {
+    position: absolute;
+    top: 10px; 
+    left: -100px; 
+    transform: translateX(-50%); 
+    width: 200px; 
+    z-index: 10; 
+    animation: moveSanta 10s linear;
+}
+
+@keyframes moveSanta{
+    0%{
+        left: -100px;
+    }
+    100%{
+        left: 130%;
+    }
+}
