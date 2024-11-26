@@ -8,12 +8,10 @@ body {
 
 h2  {
     position: absolute;
-    display: flex;
-    left: 49%;
-    top: 20%;
+    left: 52%;
+    top: 22%;
     color: darkcyan;
-    
-    
+    transform: translate(-50%, -50%);
 }
 
 
@@ -135,3 +133,46 @@ ul {
     background-color:red;
     font-weight: bold; 
 }
+
+
+.blue:hover::after {
+    content: "Sankthans";
+    color: black;
+}
+
+.blue:hover {
+    color: transparent;
+}
+
+#birthday4:hover::after {
+    content: "Bursdag Jens";
+    color: black;
+}
+#birthday3:hover::after {
+    content: "Bursdag Jonas";
+    color: black;
+}
+#birthday2:hover::after {
+    content: "Bursdag Martin";
+    color: black;
+}
+#birthday1:hover::after {
+    content: "Bursdag Andreas";
+    color: black;
+}
+
+.birthday:hover {
+    color: transparent;
+    transform: scale(1.5);
+}
+#btn-theme-desember:hover {
+    transform: scale(1.8);
+    transition: ease-in 350ms;
+    color: transparent;
+    background: url("/Bilder/stockings.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px -12px;
+
+}
+
