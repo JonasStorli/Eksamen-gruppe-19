@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(to bottom, skyblue, lightblue);
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.blomster {
+    position: fixed;
+    top: -10%;
+    height: 7%;
+    width: 7%;
+    background-image: url(/Bilder/blomster.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: fall linear infinite;
+    
+}
+
+@keyframes fall {
+    0% {
+        transform: translateY(-100%);
+        
+    }
+    100% {
+        transform: translateY(100vh);
+        
+
+    }
+}
+
+.blomster:nth-child(1) {
+    left: 15%;
+    animation-duration: 7s;
+    animation-delay: 0s;
+    
+}
+
+.blomster:nth-child(2) {
+    left: 30%;
+    animation-duration: 6s;
+    animation-delay: 1s;
+    
+}
+
+.blomster:nth-child(3) {
+    left: 45%;
+    animation-duration: 8s;
+    animation-delay: 2s;
+    
+}
+
+.blomster:nth-child(4) {
+    left: 60%;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    
+}
+
+.blomster:nth-child(5) {
+    left: 75%;
+    animation-duration: 9s;
+    animation-delay: 4s;
+    
+}
+
+
+
+
+
