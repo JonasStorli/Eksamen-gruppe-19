@@ -82,10 +82,7 @@ section{
 }
 
 @keyframes mistletoe {
-    0% {
-
-    }
-    100% {
-        
-    }
+    0%{-webkit-transform:rotate(-3deg)}
+    50%{-webkit-transform:rotate(3deg)}
+    100%{-webkit-transform:rotate(-3deg)}
 }
