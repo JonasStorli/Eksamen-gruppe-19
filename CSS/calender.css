@@ -135,3 +135,35 @@ ul {
     background-color:red;
     font-weight: bold; 
 }
+
+
+.blue:hover::after {
+    content: "Sankthans";
+    color: black;
+}
+
+.blue:hover {
+    color: transparent;
+}
+
+#birthday4:hover::after {
+    content: "Bursdag Jens";
+    color: black;
+}
+#birthday3:hover::after {
+    content: "Bursdag Jonas";
+    color: black;
+}
+#birthday2:hover::after {
+    content: "Bursdag Martin";
+    color: black;
+}
+#birthday1:hover::after {
+    content: "Bursdag Andreas";
+    color: black;
+}
+
+.birthday:hover {
+    color: transparent;
+    transform: scale(1.5);
+}
