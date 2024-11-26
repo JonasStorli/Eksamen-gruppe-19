@@ -152,22 +152,29 @@ ul {
     content: "Bursdag Jonas";
     color: black;
 }
+
+
 #birthday2:hover::after {
     content: "Bursdag Martin";
     color: black;
 }
+
+
 #birthday1:hover::after {
     content: "Bursdag Andreas";
     color: black;
 }
 
+
 .birthday:hover {
     color: transparent;
     transform: scale(1.5);
 }
+
+
 #btn-theme-desember:hover {
     transform: scale(1.8);
-    transition: ease-in 350ms;
+    transition: ease-in 350ms, color 50ms ease-in;
     color: transparent;
     background: url("/Bilder/stockings.jpg");
     background-size: cover;
