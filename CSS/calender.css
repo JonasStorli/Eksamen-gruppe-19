@@ -325,3 +325,16 @@ ul {
     left: 53%;
     z-index: 1;
 }
+
+
+.JanuarBody {
+    background: url("/Bilder/newyearsbackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+#JanuarH1 {
+    color: white;
+}
