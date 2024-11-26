@@ -297,3 +297,14 @@ ul {
         transform: scaleX(-1);
     }
 }
+
+
+
+#fireworkRocket {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    top: 78%;
+    left: 53%;
+    z-index: 1;
+}
