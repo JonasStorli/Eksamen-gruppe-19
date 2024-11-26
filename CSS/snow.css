@@ -59,4 +59,33 @@ section{
 
 
 
+/* Mistletoe */
+#mistleToe1 {
+    cursor: pointer;
+    position: absolute;
+    top: 21%;
+    left: 21.7%;
+    height: 100px;
+    width: 100px;
+    animation: mistletoe 1s ease-in-out 1s;
+}
 
+#mistleToe2 {
+    cursor: pointer;
+    position: absolute;
+    top: 21%;
+    left: 75.6%;
+    height: 100px;
+    width: 100px;
+    animation: mistletoe 1s ease-in-out 1s;
+
+}
+
+@keyframes mistletoe {
+    0% {
+
+    }
+    100% {
+        
+    }
+}
