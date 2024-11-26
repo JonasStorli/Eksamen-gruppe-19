@@ -205,6 +205,11 @@ ul {
     transform: translate(-9px);
 }
 
+.valentines:hover {
+    color: transparent;
+    transform: scale(1.25);
+}
+
 .dager span.easter {
     background-color: yellow;
     font-weight: bold; 
@@ -213,8 +218,8 @@ ul {
 .easter:hover {
     color: transparent;
     transform: scale(1.25);
-    
 }
+
 #easter1:hover::after {
     content: "Skjærtorsdag";
     color: black;
