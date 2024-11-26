@@ -55,29 +55,30 @@ nav a{
 
 .dager {
     display: grid;
-    grid-template-columns: repeat(7, 1fr); /* 7 equal columns for days of the week */
-    gap: 10px; /* Adds spacing between cells */
-    max-width: 800px; /* Set a maximum width to constrain the calendar */
-    margin-left: auto; /* Center the calendar horizontally */
+    grid-template-columns: repeat(7, 1fr); 
+    gap: 10px; 
+    max-width: 800px; 
+    margin-left: auto; 
    
 }
 
 .dager span {
-    display: flex; /* Center content inside spans */
+    display: flex;
     justify-content: center;
     align-items: center;
-    width: 100px; /* Fixed width for each day */
-    height: 80px; /* Fixed height for each day */
+    width: 100px; 
+    height: 80px; 
     background: #f0f0f0;
     border-radius: 5px;
     font-size: 16px;
-    margin: 0; /* Remove any default margin */
-    padding: 0; /* Remove padding */
-    line-height: 1; /* Prevent extra vertical spacing */
+    margin: 0;
+    padding: 0; 
+    line-height: 1; 
+
 }
 
 .dager span.red {
-    color: red; /* Style for Sundays or special days */
+    color: red; 
 }
 
 ul {
@@ -115,4 +116,22 @@ ul {
     top: 47%;
     
     
+}
+
+.dager span.birthday {
+    background-color: green;
+    font-weight: bold; 
+}
+.dager span.valentines {
+    background-color: pink;
+    font-weight: bold;
+}
+
+.dager span.blue {
+    background-color: lightblue;
+    font-weight: bold; 
+}
+.dager span.christmas {
+    background-color:red;
+    font-weight: bold; 
 }
