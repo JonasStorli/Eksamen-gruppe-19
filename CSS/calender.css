@@ -117,3 +117,21 @@ ul {
     
     
 }
+
+.dager span.green {
+    background-color: green;
+    font-weight: bold; 
+}
+.dager span.valentines {
+    background-color: pink;
+    font-weight: bold;
+}
+
+.dager span.blue {
+    background-color: lightblue;
+    font-weight: bold; 
+}
+.dager span.christmas {
+    background-color:red;
+    font-weight: bold; 
+}
