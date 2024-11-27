@@ -18,7 +18,7 @@
     top: -10%;
     height: 7%;
     width: 7%;
-    background-image: url("/Bilder/moustache.webp");
+    background-image: url("/Bilder/moustache.png");
     background-size: contain;
     background-repeat: no-repeat;
     animation: moustacheRain linear infinite;
@@ -99,4 +99,24 @@
   animation-duration: 6s;
   animation-delay: 1s;
   z-index: -1;
+}
+
+
+#moustacheTiny1 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  height: 50px;
+  width: 50px;
+  top: 24%;
+  left: 46%;
+}
+
+#moustacheTiny2 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  height: 50px;
+  width: 50px;
+  top: 24%;
+  left: 58%;
+
 }
