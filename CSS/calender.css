@@ -173,9 +173,8 @@ ul {
     background-color:red;
     font-weight: bold; 
 }
+
 /*Ikke kode fra Martin*/
-
-
 #btn-theme-januar:hover {
     transform: scale(1.8);
     transition: ease-in 350ms, color 50ms ease-in;
@@ -208,23 +207,34 @@ ul {
     transform: scale(1.25);
 }
 
-/*Valentines*/
-.valentines:hover::after {
-    content: "Valentines";
-    color: black;
-    transform: translate(-9px);
-}
-
-.valentines:hover {
+/*Kode fra Martin*/
+#btn-theme-februar:hover {
+    transform: scale(1.8);
+    transition: ease-in 350ms, color 50ms ease-in;
     color: transparent;
-    transform: scale(1.25);
+    background: url("/Bilder/hearts.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px -7px;
 }
-
-.dager span.valentines {
-    background-color: pink;
-    font-weight: bold;
+#btn-theme-mars:hover {
+    transform: scale(1.8);
+    transition: ease-in 350ms, color 50ms ease-in;
+    color: transparent;
+    background: url("/Bilder/stp1.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px -7px;
 }
-
+#btn-theme-juli:hover {
+    transform: scale(1.8);
+    transition: ease-in 350ms, color 50ms ease-in;
+    color: transparent;
+    background: url("/Bilder/julitheme.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px -7px;
+}
 /*Påske*/
 .dager span.easter {
     background-color: yellow;
@@ -256,76 +266,10 @@ ul {
     color: black;
     transform: translate(-9px);
 }
+/*Kode Martin slutter her*/
 
-/*St. Patricks dag*/
-.stP:hover::after {
-    content: "St. Patricks Dag";
-    color: black;
-    transform: translate(-9px);
-}
 
-.stP:hover {
-    color: transparent;
-    transform: scale(1.25);
-}
 
-.dager span.stP {
-    background-color:chartreuse;
-    font-weight: bold; 
-}
 
-/*Sand buggy*/
-#buggy {
-    position: absolute;
-    height: 80px;
-    z-index: -1;
-    animation: drive 20s infinite;
-}
-/*Animasjon for sand buggy*/
-@keyframes drive {
-    0% {
-        left: 50px;
-        top: 650px;
-        transform: scaleX(1);
-    }
-    5% {
-        left: 150px;
-        top: 680px;
-        transform: rotate(360deg) scaleX(1);
-    }
-    25% {
-        left: 512px;
-        top: 600px;
-        transform: scaleX(1);
-    }
-    35% {
-        left: 500px;
-        top: 700px;
-        transform: scaleX(1);
-    }
-    40% {
-        left: 500px;
-        top: 700px;
-        transform: scaleX(1);
-    }
-    50% {
-        left: 500px;
-        top: 650px;
-        transform: scaleX(1);
-    }
-    90% {
-        left: 90%; 
-        top: 650px;
-        transform: scaleX(1);
-    }
-    91% {
-        transform: scaleX(-1);
-    }
-    100% {
-        left: 50px;
-        top: 650px;
-        transform: scaleX(-1);
-    }
-}
 
 

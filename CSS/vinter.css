@@ -445,3 +445,32 @@ section{
     }
 }
 
+
+/*Kode Martin starter her*/
+/*Valentines*/
+.valentines:hover::after {
+    content: "Valentines";
+    color: black;
+    transform: translate(-9px);
+}
+
+.valentines:hover {
+    color: transparent;
+    transform: scale(1.25);
+}
+
+.dager span.valentines {
+    background-color: pink;
+    font-weight: bold;
+}
+
+#valentinesBack {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+/*Kode Martin slutter her*/

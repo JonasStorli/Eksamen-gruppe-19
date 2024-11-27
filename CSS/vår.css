@@ -112,6 +112,34 @@ body {
 }
 
 
+/*Kode Martin starter her*/
+/*Mars*/
+/*St. Patricks dag*/
+
+.stP:hover::after {
+    content: "St. Patricks Dag";
+    color: black;
+    transform: translate(-9px);
+}
+
+.stP:hover {
+    color: transparent;
+    transform: scale(1.25);
+}
+
+.dager span.stP {
+    background-color:chartreuse;
+    font-weight: bold; 
+}
+
+#stP {
+    top: 0;
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+
 
 
 
