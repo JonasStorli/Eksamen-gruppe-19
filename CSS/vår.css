@@ -134,10 +134,25 @@ body {
 
 #stP {
     top: 0;
-    z-index: -1;
+    z-index: -2;
     position: absolute;
     left: 0;
     width: 100%;
+}
+
+#rainbow {
+    top: 15px;
+    left: 420px;
+    position: absolute;
+    width: 1200px;
+    z-index: -1;
+    animation: visibleRainbow 3s infinite;
+}
+
+@keyframes visibleRainbow {
+    0% {opacity: 0.9;}
+    50% {opacity: 0.3;}
+    100% {opacity: 0.9;}
 }
 
 
