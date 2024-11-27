@@ -49,3 +49,31 @@ body {
 }
 
 
+
+/*Juni*/
+.Fire {
+    position: absolute;
+    width: 400px;
+    height: 400px; 
+    z-index: 10;
+    left: 0%;
+    top: 50%;
+    opacity: 0; 
+    border-radius: 50%;
+    transition: opacity 0.5s ease; 
+}
+
+#animationToggle {
+    position: absolute;
+    cursor: pointer;
+    left: 25%;
+    top: 76%;
+    z-index: 4;
+    height: 7%;
+    width: 7%;
+    opacity: 0; /* Hidden checkbox */
+}
+
+#animationToggle:checked ~ .Fire {
+    opacity: 1; /* Makes fire visible */
+}
