@@ -117,6 +117,7 @@ ul {
     
 }
 /* Kode Martin starter her*/
+/*Hover ved viktige dager*/
 /*Sankthans*/
 .blue:hover::after {
     content: "Sankthans";
