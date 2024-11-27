@@ -59,7 +59,7 @@ section{
 
 
 
-/* Mistletoe */
+/* Mistletoe - Laget av Andreas Skogly*/
 #mistleToe1 {
     cursor: pointer;
     position: absolute;
@@ -145,7 +145,7 @@ section{
 
 
 
-/* Kode for Januar raketter */
+/* Kode for Januar raketter - laget av Andreas Skogly */
 
 #animationToggleRocket {
     position: absolute;
@@ -169,7 +169,7 @@ section{
     animation-play-state: running;
 }
 
-/* Når checkbox ikke er aktivert, så nullstiller animasjonen seg - Andreas Skogly */
+/* Når checkbox ikke er aktivert, så nullstiller animasjonen seg */
 #animationToggleRocket:not(:checked) ~ #fireworkRocket,
 #animationToggleRocket:not(:checked) ~ #fireworkRocket2,
 #animationToggleRocket:not(:checked) ~ #fireworkRocket3, 
