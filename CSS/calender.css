@@ -4,6 +4,7 @@ body {
     background: rgb(243, 237, 237);
     margin: 0;
     padding: 20px;
+    position: relative;
 }
 
 h2  {
@@ -329,13 +330,73 @@ ul {
 
 
 /* Kode for Januar raketter */
+
+#animationToggleRocket {
+    position: absolute;
+    cursor: pointer;
+    left: 40.8%;
+    top: 29.2%;
+    z-index: 4;
+    height: 10%;
+    width: 5%;
+    opacity: 1;
+
+}
+
+
+
+#animationToggleRocket:checked ~ #fireworkRocket,
+#animationToggleRocket:checked ~ #fireworkRocket2,
+#animationToggleRocket:checked ~ #fireworkRocket3 {
+    animation-play-state: running;
+}
+
+/* Når checkbox ikke er aktivert, så nullstiller animasjonen seg - Andreas Skogly */
+#animationToggleRocket:not(:checked) ~ #fireworkRocket,
+#animationToggleRocket:not(:checked) ~ #fireworkRocket2,
+#animationToggleRocket:not(:checked) ~ #fireworkRocket3 {
+    animation: none;
+}
+
+
+
 #fireworkRocket {
     position: absolute;
+    transform: translate(-50%, -50%);
     height: 80px;
     width: 80px;
-    top: 40%;
+    top: 120%;
     left: 53%;
     z-index: 1;
+    opacity: 1;
+    animation: rakettAnimasjon linear 1s infinite;
+    animation-play-state: paused;
+}
+#fireworkRocket2 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    height: 80px;
+    width: 80px;
+    top: 120%;
+    left: 35%;
+    z-index: 1;
+    opacity: 1;
+    animation: rakettAnimasjon2 linear 1s infinite;
+    animation-play-state: paused;
+
+}
+#fireworkRocket3 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    height: 80px;
+    width: 80px;
+    top: 120%;
+    left: 70%;
+    z-index: 1;
+    opacity: 1;
+    animation: rakettAnimasjon3 linear 1s infinite;
+    animation-play-state: paused;
+
 }
 
 
@@ -357,6 +418,148 @@ ul {
 
 #fireworkButton:hover {
     transform: scale(1.25);
-    transition: ease-in-out 500ms;
+    transition: 500ms;
     cursor: pointer;
+}
+
+#fireworkEksplosjon {
+    position: absolute;
+    top: 60%;
+    left: 38%;
+    height: 400px;
+    width: 400px;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    animation: rakettEksplosjon
+}
+
+@keyframes rakettAnimasjon {
+    0% {
+        opacity: 1;
+        top: 110%;
+        left: 53%;
+    }
+
+    10% {
+        top: 90%;
+        left: 54%;
+    }
+
+    20% {
+        top: 80%;
+        left: 53%;
+    }
+
+    50% {
+        top: 70%; 
+        left: 54%;
+    }
+
+
+    60% {
+        top: 60%;
+        left: 53%;
+    }
+
+    80% {
+        top: 50%;
+        left: 54%;
+   }
+
+   100% {
+        top: 40%;
+        left: 53%;
+   }
+
+   
+}
+@keyframes rakettAnimasjon2 {
+    0% {
+        opacity: 1;
+        top: 110%;
+        left: 35%;
+    }
+
+    10% {
+        top: 90%;
+        left: 34%;
+    }
+
+    20% {
+        top: 80%;
+        left: 35%;
+    }
+
+    50% {
+        top: 70%; 
+        left: 34%;
+    }
+
+
+    60% {
+        top: 60%;
+        left: 35%;
+    }
+
+    80% {
+        top: 50%;
+        left: 34%;
+   }
+
+   100% {
+        top: 40%;
+        left: 35%;
+   }
+
+   
+}
+@keyframes rakettAnimasjon3 {
+    0% {
+        opacity: 1;
+        top: 110%;
+        left: 71%;
+    }
+
+    10% {
+        top: 90%;
+        left: 70%;
+    }
+
+    20% {
+        top: 80%;
+        left: 71%;
+    }
+
+    50% {
+        top: 70%; 
+        left: 70%;
+    }
+
+
+    60% {
+        top: 60%;
+        left: 71%;
+    }
+
+    80% {
+        top: 50%;
+        left: 70%;
+   }
+
+   100% {
+        top: 40%;
+        left: 71%;
+   }
+
+   
+}
+
+@keyframes rakettEksplosjon {
+    0% {
+        
+    }
+    
+    100% {
+
+    }
 }

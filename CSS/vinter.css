@@ -125,6 +125,13 @@ section{
     animation-play-state: running;
 }
 
+/* Når checkbox ikke er aktivert, så nullstiller animasjonen seg - Andreas Skogly */
+#animationToggle:not(:checked) ~ .Santa { 
+    animation: none;
+}
+
+
+
 @keyframes moveSanta{
     0%{
         left: -100px;
