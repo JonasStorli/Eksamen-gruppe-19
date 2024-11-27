@@ -48,32 +48,59 @@ body {
 
 }
 
+/*Kode Martin starter her*/
 
-
-/*Juni*/
-.Fire {
+/*Sand buggy*/
+#buggy {
     position: absolute;
-    width: 400px;
-    height: 400px; 
-    z-index: 10;
-    left: 0%;
-    top: 50%;
-    opacity: 0; 
-    border-radius: 50%;
-    transition: opacity 0.5s ease; 
+    height: 80px;
+    z-index: -1;
+    animation: drive 20s infinite;
 }
-
-#animationToggle {
-    position: absolute;
-    cursor: pointer;
-    left: 25%;
-    top: 76%;
-    z-index: 4;
-    height: 7%;
-    width: 7%;
-    opacity: 0; /* Hidden checkbox */
+/*Animasjon for sand buggy*/
+@keyframes drive {
+    0% {
+        left: 50px;
+        top: 650px;
+        transform: scaleX(1);
+    }
+    5% {
+        left: 150px;
+        top: 680px;
+        transform: rotate(360deg) scaleX(1);
+    }
+    25% {
+        left: 512px;
+        top: 600px;
+        transform: scaleX(1);
+    }
+    35% {
+        left: 500px;
+        top: 700px;
+        transform: scaleX(1);
+    }
+    40% {
+        left: 500px;
+        top: 700px;
+        transform: scaleX(1);
+    }
+    50% {
+        left: 500px;
+        top: 650px;
+        transform: scaleX(1);
+    }
+    90% {
+        left: 90%; 
+        top: 650px;
+        transform: scaleX(1);
+    }
+    91% {
+        transform: scaleX(-1);
+    }
+    100% {
+        left: 50px;
+        top: 650px;
+        transform: scaleX(-1);
+    }
 }
-
-#animationToggle:checked ~ .Fire {
-    opacity: 1; /* Makes fire visible */
-}
+/*Kode Martin slutter her*/

@@ -142,3 +142,335 @@ section{
 }
 
 
+
+
+
+/* Kode for Januar raketter */
+
+#animationToggleRocket {
+    position: absolute;
+    cursor: pointer;
+    left: 40.8%;
+    top: 29.2%;
+    z-index: 4;
+    height: 10%;
+    width: 5%;
+    opacity: 0;
+    
+
+}
+/* Når checkbox er aktivert, så starter animasjon til rakett */
+#animationToggleRocket:checked ~ #fireworkRocket,
+#animationToggleRocket:checked ~ #fireworkRocket2,
+#animationToggleRocket:checked ~ #fireworkRocket3,
+#animationToggleRocket:checked ~ #fireworkEksplosjon, 
+#animationToggleRocket:checked ~ #fireworkEksplosjon2, 
+#animationToggleRocket:checked ~ #fireworkEksplosjon {
+    animation-play-state: running;
+}
+
+/* Når checkbox ikke er aktivert, så nullstiller animasjonen seg - Andreas Skogly */
+#animationToggleRocket:not(:checked) ~ #fireworkRocket,
+#animationToggleRocket:not(:checked) ~ #fireworkRocket2,
+#animationToggleRocket:not(:checked) ~ #fireworkRocket3, 
+#animationToggleRocket:not(:checked) ~ #fireworkEksplosjon, 
+#animationToggleRocket:not(:checked) ~ #fireworkEksplosjon2, 
+#animationToggleRocket:not(:checked) ~ #fireworkEksplosjon3 {
+    animation: none;
+}
+
+
+
+#fireworkRocket {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    height: 80px;
+    width: 80px;
+    top: 120%;
+    left: 53%;
+    z-index: 1;
+    opacity: 0;
+    animation: rakettAnimasjon linear 1s ;
+    animation-play-state: paused;
+}
+#fireworkRocket2 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    height: 80px;
+    width: 80px;
+    top: 120%;
+    left: 35%;
+    z-index: 1;
+    opacity: 0;
+    animation: rakettAnimasjon2 linear 1s ;
+    animation-play-state: paused;
+
+}
+#fireworkRocket3 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    height: 80px;
+    width: 80px;
+    top: 120%;
+    left: 70%;
+    z-index: 1;
+    opacity: 0;
+    animation: rakettAnimasjon3 linear 1s ;
+    animation-play-state: paused;
+
+}
+
+
+.JanuarBody {
+    background: url("/Bilder/newyearsbackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+#JanuarH1 {
+    color: yellow;
+}
+
+#fireworkButton {
+    background: black;
+}
+
+
+#fireworkEksplosjon {
+    position: absolute;
+    top: 32%;
+    left: 34%;
+    height: 200px;
+    width: 200px;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    animation: rakettEksplosjon ease-out 3s 0.9s;
+    z-index: 2;
+}
+
+
+#fireworkEksplosjon2 {
+    position: absolute;
+    top: 32%;
+    left: 52%;
+    height: 200px;
+    width: 200px;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    animation: rakettEksplosjon2 ease-out 3s 0.9s;
+    z-index: 2;
+
+}
+
+
+#fireworkEksplosjon3 {
+    position: absolute;
+    top: 32%;
+    left: 70%;
+    height: 200px;
+    width: 200px;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    animation: rakettEksplosjon3 ease-out 3s 0.9s;
+    z-index: 2;
+
+}
+
+@keyframes rakettAnimasjon {
+    0% {
+        opacity: 1;
+        top: 110%;
+        left: 53%;
+    }
+
+    10% {
+        top: 90%;
+        left: 54%;
+    }
+
+    20% {
+        top: 80%;
+        left: 53%;
+    }
+
+    50% {
+        top: 70%; 
+        left: 54%;
+    }
+
+
+    60% {
+        top: 60%;
+        left: 53%;
+    }
+
+    80% {
+        top: 50%;
+        left: 54%;
+   }
+
+   100% {
+        top: 40%;
+        left: 53%;
+   }
+
+   
+}
+
+
+@keyframes rakettAnimasjon2 {
+    0% {
+        opacity: 1;
+        top: 110%;
+        left: 35%;
+    }
+
+    10% {
+        top: 90%;
+        left: 34%;
+    }
+
+    20% {
+        top: 80%;
+        left: 35%;
+    }
+
+    50% {
+        top: 70%; 
+        left: 34%;
+    }
+
+
+    60% {
+        top: 60%;
+        left: 35%;
+    }
+
+    80% {
+        top: 50%;
+        left: 34%;
+   }
+
+   100% {
+        top: 40%;
+        left: 35%;
+   }
+
+   
+}
+
+
+@keyframes rakettAnimasjon3 {
+    0% {
+        opacity: 1;
+        top: 110%;
+        left: 71%;
+    }
+
+    10% {
+        top: 90%;
+        left: 70%;
+    }
+
+    20% {
+        top: 80%;
+        left: 71%;
+    }
+
+    50% {
+        top: 70%; 
+        left: 70%;
+    }
+
+
+    60% {
+        top: 60%;
+        left: 71%;
+    }
+
+    80% {
+        top: 50%;
+        left: 70%;
+   }
+
+   100% {
+        top: 40%;
+        left: 71%;
+   }
+
+   
+}
+
+
+@keyframes rakettEksplosjon {
+    0% {
+        opacity: 1;
+        left: 34%;
+    }
+
+    
+    100% {
+        left: 34%;
+      
+    }
+}
+
+
+@keyframes rakettEksplosjon2 {
+    0% {
+        opacity: 1;
+        left: 52%;
+    }
+
+    
+    100% {
+        left: 52%;
+      
+    }
+}
+
+
+@keyframes rakettEksplosjon3 {
+    0% {
+        opacity: 1;
+        left: 70%;
+    }
+
+    
+    100% {
+        left: 70%;
+      
+    }
+}
+
+
+/*Kode Martin starter her*/
+/*Valentines*/
+.valentines:hover::after {
+    content: "Valentines";
+    color: black;
+    transform: translate(-9px);
+}
+
+.valentines:hover {
+    color: transparent;
+    transform: scale(1.25);
+}
+
+.dager span.valentines {
+    background-color: pink;
+    font-weight: bold;
+}
+
+#valentinesBack {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+/*Kode Martin slutter her*/
