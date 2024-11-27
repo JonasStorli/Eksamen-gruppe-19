@@ -173,6 +173,7 @@ ul {
     background-color:red;
     font-weight: bold; 
 }
+
 /*Ikke kode fra Martin*/
 
 /* Hover over Månedene */
@@ -235,7 +236,10 @@ ul {
 
 .valentines:hover {
     color: transparent;
-    transform: scale(1.25);
+    background: url("/Bilder/hearts.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px -7px;
 }
 
 
@@ -277,76 +281,10 @@ ul {
     color: black;
     transform: translate(-9px);
 }
+/*Kode Martin slutter her*/
 
-/*St. Patricks dag*/
-.stP:hover::after {
-    content: "St. Patricks Dag";
-    color: black;
-    transform: translate(-9px);
-}
 
-.stP:hover {
-    color: transparent;
-    transform: scale(1.25);
-}
 
-.dager span.stP {
-    background-color:chartreuse;
-    font-weight: bold; 
-}
 
-/*Sand buggy*/
-#buggy {
-    position: absolute;
-    height: 80px;
-    z-index: -1;
-    animation: drive 20s infinite;
-}
-/*Animasjon for sand buggy*/
-@keyframes drive {
-    0% {
-        left: 50px;
-        top: 650px;
-        transform: scaleX(1);
-    }
-    5% {
-        left: 150px;
-        top: 680px;
-        transform: rotate(360deg) scaleX(1);
-    }
-    25% {
-        left: 512px;
-        top: 600px;
-        transform: scaleX(1);
-    }
-    35% {
-        left: 500px;
-        top: 700px;
-        transform: scaleX(1);
-    }
-    40% {
-        left: 500px;
-        top: 700px;
-        transform: scaleX(1);
-    }
-    50% {
-        left: 500px;
-        top: 650px;
-        transform: scaleX(1);
-    }
-    90% {
-        left: 90%; 
-        top: 650px;
-        transform: scaleX(1);
-    }
-    91% {
-        transform: scaleX(-1);
-    }
-    100% {
-        left: 50px;
-        top: 650px;
-        transform: scaleX(-1);
-    }
-}
 
 
