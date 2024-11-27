@@ -340,6 +340,7 @@ ul {
     height: 10%;
     width: 5%;
     opacity: 1;
+    
 
 }
 
@@ -347,14 +348,16 @@ ul {
 
 #animationToggleRocket:checked ~ #fireworkRocket,
 #animationToggleRocket:checked ~ #fireworkRocket2,
-#animationToggleRocket:checked ~ #fireworkRocket3 {
+#animationToggleRocket:checked ~ #fireworkRocket3,
+#animationToggleRocket:checked ~ #fireworkEksplosjon {
     animation-play-state: running;
 }
 
 /* Når checkbox ikke er aktivert, så nullstiller animasjonen seg - Andreas Skogly */
 #animationToggleRocket:not(:checked) ~ #fireworkRocket,
 #animationToggleRocket:not(:checked) ~ #fireworkRocket2,
-#animationToggleRocket:not(:checked) ~ #fireworkRocket3 {
+#animationToggleRocket:not(:checked) ~ #fireworkRocket3, 
+#animationToggleRocket:not(:checked) ~ #fireworkEksplosjon {
     animation: none;
 }
 
@@ -416,21 +419,45 @@ ul {
     background: black;
 }
 
-#fireworkButton:hover {
-    transform: scale(1.25);
-    transition: 500ms;
-    cursor: pointer;
-}
 
 #fireworkEksplosjon {
     position: absolute;
-    top: 60%;
+    top: 32%;
     left: 38%;
     height: 400px;
     width: 400px;
     transform: translate(-50%, -50%);
-    opacity: 1;
-    animation: rakettEksplosjon
+    opacity: 0;
+    animation: rakettEksplosjon ease-out 1s 0.9s infinite ;
+    z-index: 2;
+}
+
+
+#fireworkEksplosjon2 {
+    position: absolute;
+    top: 32%;
+    left: 56%;
+    height: 400px;
+    width: 400px;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    animation: rakettEksplosjon;
+    z-index: 2;
+
+}
+
+
+#fireworkEksplosjon3 {
+    position: absolute;
+    top: 32%;
+    left: 74%;
+    height: 400px;
+    width: 400px;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    animation: rakettEksplosjon;
+    z-index: 2;
+
 }
 
 @keyframes rakettAnimasjon {
@@ -556,10 +583,38 @@ ul {
 
 @keyframes rakettEksplosjon {
     0% {
-        
+        opacity: 1;
+        left: 38%;
+    }
+
+    5% {
+        left: 38%;
+    }
+    20% {
+        left: 39%;
+    }
+    30% {
+        left: 38%;
+    }
+    35% {
+        left: 39%;
+    }
+    40% {
+        left: 38%;
+    }
+    45% {
+        left: 39%;
+    }
+    50% {
+        left: 38%;
+    }
+
+    60% {
+        left: 39%;
     }
     
     100% {
-
+        left: 38%;
+        opacity: 0;
     }
 }
