@@ -1,3 +1,4 @@
+/*laget av jonas*/
 body {
     font-family: Arial, sans-serif;
     text-align: center;
@@ -47,16 +48,17 @@ section{
     filter: blur(1px);
 }
 
+
 @keyframes snowfall1 {
     0% { background-position: -10000px 0px; }
     100% { background-position: 0px 20000px; }
 }
 
+
 @keyframes snowfall2 {
     0% { background-position: -15010px 10px; }
     100% { background-position: 100px 20000px; }
 }
-
 
 /* Mistletoe - Laget av Andreas Skogly*/
 #mistleToe1 {
@@ -68,8 +70,8 @@ section{
     width: 100px;
     animation: mistletoe 1s ease-in-out infinite;
     animation-play-state: paused;
-
 }
+
 
 #mistleToe2 {
     cursor: pointer;
@@ -81,6 +83,7 @@ section{
     animation: mistletoe 1s ease-in-out infinite;
     animation-play-state: paused;
 }
+
 
 #mistleToe1:hover, #mistleToe2:hover {
     animation-play-state: running;
@@ -94,6 +97,7 @@ section{
 }
 
 
+/*la til Nisse, Jonas*/
 .Santa {
     position: absolute;
     top: 10px; 
@@ -110,12 +114,11 @@ section{
     position: absolute;
     cursor: pointer;
     left: 38.8%;
-    top: 66%;
+    top: 63%;
     z-index: 4;
     height: 10%;
     width: 10%;
     opacity: 0;
-
 }
 
 
@@ -150,8 +153,6 @@ section{
     height: 10%;
     width: 5%;
     opacity: 0;
-    
-
 }
 
 
@@ -164,6 +165,7 @@ section{
 #animationToggleRocket:checked ~ #fireworkEksplosjon {
     animation-play-state: running;
 }
+
 
 /* Når checkbox ikke er aktivert, så nullstiller animasjonen seg */
 #animationToggleRocket:not(:checked) ~ #fireworkRocket,
@@ -201,7 +203,6 @@ section{
     opacity: 0;
     animation: rakettAnimasjon2 linear 1s ;
     animation-play-state: paused;
-
 }
 
 
@@ -216,7 +217,6 @@ section{
     opacity: 0;
     animation: rakettAnimasjon3 linear 1s ;
     animation-play-state: paused;
-
 }
 
 
@@ -224,7 +224,6 @@ section{
     background: url("/Bilder/newyearsbackground.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    
 }
 
 
@@ -261,7 +260,6 @@ section{
     opacity: 0;
     animation: rakettEksplosjon2 ease-out 3s 0.9s;
     z-index: 2;
-
 }
 
 
@@ -275,7 +273,6 @@ section{
     opacity: 0;
     animation: rakettEksplosjon3 ease-out 3s 0.9s;
     z-index: 2;
-
 }
 
 
