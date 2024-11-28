@@ -19,7 +19,7 @@ body {
     top: -10%;
     height: 7%;
     width: 7%;
-    background-image: url(/Bilder/blomster.png);
+    background-image: url(../Bilder/blomster.png);
     background-size: contain;
     background-repeat: no-repeat;
     animation: fall linear infinite;
@@ -130,7 +130,7 @@ body {
     top: -10%;
     height: 7%;
     width: 7%;
-    background-image: url(/Bilder/iskrem.png);
+    background-image: url(../Bilder/iskrem.png);
     background-size: contain;
     background-repeat: no-repeat;
     animation: fall linear infinite;
@@ -230,7 +230,7 @@ body {
 
 /*Bilde av 17.Mai i kalenderen*/
 #syttendeMai {
-    background-image: url(/Bilder/Mai-tog.png);
+    background-image: url(../Bilder/Mai-tog.png);
     background-size: cover;
     background-position: center;
     display: flex;

@@ -201,7 +201,7 @@ ul {
     transform: scale(1.4);
     transition: ease-in 350ms, color 50ms ease-in;
     color: transparent;
-    background: url("/Bilder/2025.jpg"); /* Bildet er hentet fra Google */
+    background: url(../Bilder/2025.jpg); /* Bildet er hentet fra Google */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0px -7px;
@@ -213,7 +213,7 @@ ul {
     transform: scale(1.4);
     transition: ease .5s, color 50ms ease-in;
     color: transparent;
-    background: url("/Bilder/sommer.jpg"); /* Bildet er hentet fra Google */
+    background: url(../Bilder/sommer.jpg); /* Bildet er hentet fra Google */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0px -12px;
@@ -224,7 +224,7 @@ ul {
     transform: scale(1.4);
     transition: ease 350ms, color 50ms ease-in;
     color: transparent;
-    background: url("/Bilder/backtoschool.jpg"); /* Bildet er hentet fra Google */
+    background: url(../Bilder/backtoschool.jpg); /* Bildet er hentet fra Google */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0px -3px;
@@ -236,7 +236,7 @@ ul {
     transform: scale(1.4);
     transition: ease .5s, color 50ms ease-in;
     color: transparent;
-    background: url("/Bilder/poteter.jpg"); /* Bildet er hentet fra Google */
+    background: url(../Bilder/poteter.jpg); /* Bildet er hentet fra Google */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0px -12px;
@@ -248,7 +248,7 @@ ul {
     transform: scale(1.4);
     transition: ease .5s, color 50ms ease-in;
     color: transparent;
-    background: url("/Bilder/leaves.jpg"); /* Bildet er hentet fra Google */
+    background: url(../Bilder/leaves.jpg); /* Bildet er hentet fra Google */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0px -12px;
@@ -260,7 +260,7 @@ ul {
     transform: scale(1.4);
     transition: ease 350ms, color 50ms ease-in;
     color: transparent;
-    background: url("/Bilder/moustache.png"); /* Bildet er hentet fra Google */
+    background: url(../Bilder/moustache.png); /* Bildet er hentet fra Google */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0px -12px;
@@ -272,7 +272,7 @@ ul {
     transform: scale(1.4);
     transition: ease 350ms, color 50ms ease-in;
     color: transparent;
-    background: url("/Bilder/stockings.jpg"); /* Bildet er hentet fra Google */
+    background: url(../Bilder/stockings.jpg); /* Bildet er hentet fra Google */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0px -12px;
@@ -284,7 +284,7 @@ ul {
     transform: scale(1.4);
     transition: ease-in 350ms, color 50ms ease-in;
     color: transparent;
-    background: url("/Bilder/april.png"); /* Bildet er hentet fra Google */
+    background: url(../Bilder/april.png); /* Bildet er hentet fra Google */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0px -7px;
@@ -296,7 +296,7 @@ ul {
     transform: scale(1.4);
     transition: ease-in 350ms, color 50ms ease-in;
     color: transparent;
-    background: url("/Bilder/mai-bakgrunn.jpg"); /* Bildet er hentet fra Google */
+    background: url(../Bilder/mai-bakgrunn.jpg); /* Bildet er hentet fra Google */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0px -7px;
@@ -310,7 +310,7 @@ ul {
     transform: scale(1.4);
     transition: ease .5s, color 50ms ease-in;
     color: transparent;
-    background: url("/Bilder/hearts.jpg"); /* Bildet er hentet fra Google */
+    background: url(../Bilder/hearts.jpg); /* Bildet er hentet fra Google */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0px -12px;
@@ -321,7 +321,7 @@ ul {
     transform: scale(1.4);
     transition: ease .5s, color 50ms ease-in;
     color: transparent;
-    background: url("/Bilder/stp1.avif"); /* Bildet er hentet fra Google */
+    background: url(../Bilder/stp1.avif); /* Bildet er hentet fra Google */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0px -12px;
@@ -332,7 +332,7 @@ ul {
     transform: scale(1.4);
     transition: ease .5s, color 50ms ease-in;
     color: transparent;
-    background: url("/Bilder/julitheme.jpg"); /* Bildet er hentet fra Google */
+    background: url(../Bilder/julitheme.jpg); /* Bildet er hentet fra Google */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0px -12px;
