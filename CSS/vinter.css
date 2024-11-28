@@ -1,3 +1,4 @@
+/*laget av jonas*/
 body {
     font-family: Arial, sans-serif;
     text-align: center;
@@ -9,6 +10,7 @@ body {
     padding: 20px;
 }
 
+
 section{
     background-size: cover;
     width: 100%;
@@ -16,8 +18,6 @@ section{
     position: relative;
     overflow: hidden;
 }
-
-
 
 
 .snow1 {
@@ -33,6 +33,7 @@ section{
     filter: blur(0.5px);
 }
 
+
 .snow2 {
     position: fixed;
     padding-left: 100px;
@@ -47,17 +48,17 @@ section{
     filter: blur(1px);
 }
 
+
 @keyframes snowfall1 {
     0% { background-position: -10000px 0px; }
     100% { background-position: 0px 20000px; }
 }
 
+
 @keyframes snowfall2 {
     0% { background-position: -15010px 10px; }
     100% { background-position: 100px 20000px; }
 }
-
-
 
 /* Mistletoe - Laget av Andreas Skogly*/
 #mistleToe1 {
@@ -69,8 +70,8 @@ section{
     width: 100px;
     animation: mistletoe 1s ease-in-out infinite;
     animation-play-state: paused;
-
 }
+
 
 #mistleToe2 {
     cursor: pointer;
@@ -83,9 +84,11 @@ section{
     animation-play-state: paused;
 }
 
+
 #mistleToe1:hover, #mistleToe2:hover {
     animation-play-state: running;
 }
+
 
 @keyframes mistletoe {
     0%{transform:rotate(-5deg)}
@@ -94,7 +97,7 @@ section{
 }
 
 
-
+/*la til Nisse, Jonas*/
 .Santa {
     position: absolute;
     top: 10px; 
@@ -117,7 +120,6 @@ section{
     height: 10%;
     width: 10%;
     opacity: 0;
-
 }
 
 
@@ -125,11 +127,11 @@ section{
     animation-play-state: running;
 }
 
+
 /* Når checkbox ikke er aktivert, så nullstiller animasjonen seg - Andreas Skogly */
 #animationToggle:not(:checked) ~ .Santa { 
     animation: none;
 }
-
 
 
 @keyframes moveSanta{
@@ -142,11 +144,7 @@ section{
 }
 
 
-
-
-
 /* Kode for Januar raketter - laget av Andreas Skogly */
-
 #animationToggleRocket {
     position: absolute;
     cursor: pointer;
@@ -156,9 +154,9 @@ section{
     height: 10%;
     width: 5%;
     opacity: 0;
-    
-
 }
+
+
 /* Når checkbox er aktivert, så starter animasjon til rakett */
 #animationToggleRocket:checked ~ #fireworkRocket,
 #animationToggleRocket:checked ~ #fireworkRocket2,
@@ -169,6 +167,7 @@ section{
     animation-play-state: running;
 }
 
+
 /* Når checkbox ikke er aktivert, så nullstiller animasjonen seg */
 #animationToggleRocket:not(:checked) ~ #fireworkRocket,
 #animationToggleRocket:not(:checked) ~ #fireworkRocket2,
@@ -178,7 +177,6 @@ section{
 #animationToggleRocket:not(:checked) ~ #fireworkEksplosjon3 {
     animation: none;
 }
-
 
 
 #fireworkRocket {
@@ -193,6 +191,8 @@ section{
     animation: rakettAnimasjon linear 1s ;
     animation-play-state: paused;
 }
+
+
 #fireworkRocket2 {
     position: absolute;
     transform: translate(-50%, -50%);
@@ -204,8 +204,9 @@ section{
     opacity: 0;
     animation: rakettAnimasjon2 linear 1s ;
     animation-play-state: paused;
-
 }
+
+
 #fireworkRocket3 {
     position: absolute;
     transform: translate(-50%, -50%);
@@ -217,7 +218,6 @@ section{
     opacity: 0;
     animation: rakettAnimasjon3 linear 1s ;
     animation-play-state: paused;
-
 }
 
 
@@ -225,13 +225,13 @@ section{
     background: url("/Bilder/newyearsbackground.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    
 }
 
 
 #JanuarH1 {
     color: yellow;
 }
+
 
 #fireworkButton {
     background: black;
@@ -261,7 +261,6 @@ section{
     opacity: 0;
     animation: rakettEksplosjon2 ease-out 3s 0.9s;
     z-index: 2;
-
 }
 
 
@@ -275,8 +274,8 @@ section{
     opacity: 0;
     animation: rakettEksplosjon3 ease-out 3s 0.9s;
     z-index: 2;
-
 }
+
 
 @keyframes rakettAnimasjon {
     0% {
@@ -455,15 +454,18 @@ section{
     transform: translate(-9px);
 }
 
+
 .valentines:hover {
     color: transparent;
     transform: scale(1.25);
 }
 
+
 .dager span.valentines {
     background-color: pink;
     font-weight: bold;
 }
+
 
 #valentinesBack {
     position: absolute;
@@ -472,6 +474,7 @@ section{
     left: 0;
     width: 100%;
 }
+
 
 #heartPump {
     position: absolute;
@@ -482,6 +485,7 @@ section{
     transform: translate(-50%, -50%);
     z-index: -1;
 }
+
 
 @keyframes heartPump {
     0% {height: 150px;}
