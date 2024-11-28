@@ -4,7 +4,7 @@ body {
     text-align: center;
     background-image: url(/Bilder/vinterCabin.jpg);
     background-repeat: no-repeat;
-    background-position: center -20px;
+    background-position: -20px -300x;
     background-size: cover;
     margin: 0;
     padding: 20px;
@@ -229,6 +229,10 @@ section{
     background: url("/Bilder/newyearsbackground.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+
 }
 
 
