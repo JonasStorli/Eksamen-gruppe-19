@@ -7,6 +7,8 @@ body {
     position: relative;
 }
 
+
+/* H2 er for måned navnet over dagene */
 h2  {
     position: absolute;
     left: 52%;
@@ -20,6 +22,7 @@ nav a{
     margin: 20px;
 }
 
+
 .nav-btn{
     display: inline-block;
     margin: 5px;
@@ -32,9 +35,11 @@ nav a{
     transition: background 0.3s;
 }
 
+
 .nav-btn:hover{
     background-color: #ccc;
 }
+
 
 .måneder{
     display: flex;
@@ -61,6 +66,7 @@ nav a{
    
 }
 
+
 .dager span {
     display: flex;
     justify-content: center;
@@ -76,9 +82,11 @@ nav a{
 
 }
 
+
 .dager span.red {
     color: red; 
 }
+
 
 ul {
     display: flex;
@@ -108,6 +116,7 @@ ul {
     
 }
 
+
 #arrowBack {
     position: absolute;
     cursor: pointer;
@@ -125,15 +134,18 @@ ul {
     transform: translate(-9px);
 }
 
+
 .blue:hover {
     color: transparent;
     transform: scale(1.25);
 }
 
+
 .dager span.blue {
     background-color: lightblue;
     font-weight: bold; 
 }
+
 
 /*Bursdag*/
 .dager span.birthday {
@@ -141,16 +153,20 @@ ul {
     font-weight: bold; 
 }
 
+
 #birthday4:hover::after {
     content: "Bursdag Jens";
     color: black;
     transform: translate(-7px);
 }
+
+
 #birthday3:hover::after {
     content: "Bursdag Jonas";
     color: black;
     transform: translate(-7px);
 }
+
 
 #birthday2:hover::after {
     content: "Bursdag Martin";
@@ -158,16 +174,19 @@ ul {
     transform: translate(-7px);
 }
 
+
 #birthday1:hover::after {
     content: "Bursdag Andreas";
     color: black;
     transform: translate(-7px);
 }
 
+
 .birthday:hover {
     color: transparent;
     transform: scale(1.25);
 }
+
 
 /*Jul*/
 .dager span.christmas {
@@ -187,6 +206,7 @@ ul {
     background-position: 0px -7px;
 
 }
+
 
 #btn-theme-juni:hover{
     transform: scale(1.4);
@@ -403,6 +423,7 @@ ul {
     color: black;
     transform: translate(-9px);
 }
+
 
 
 .stPDay:hover {

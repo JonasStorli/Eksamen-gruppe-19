@@ -111,26 +111,101 @@ body {
 
 
 /* Andreas kode start */
-
-.book {
+#book {
     position: absolute;
     top: 24%;
-    left: 70%;
+    left: 56%;
     transform: translate(-50%, -50%);
-    background-image: url(/Bilder/book.png);
     width: 40px; 
     height: 40px; 
-    background-size: contain;
-    background-repeat: no-repeat;
     z-index: 10;
-    transition: background-image 0.3s ease; 
+    animation: erased ease-out 1s 3s;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
 }
 
-.book:hover{
-    background-image: url(/Bilder/open-book.png);
+
+#eraser {
+    position: absolute;
+    top: 24%;
+    left: 77%;
+    transform: translate(-50%, -50%);
+    width: 40px; 
+    height: 40px; 
+    z-index: 10;
+    cursor: pointer;
+    animation: erase ease-in-out 5s;
+    animation-play-state: paused;
 }
 
 
+#animationToggleEraser {
+    position: absolute;
+    cursor: pointer;
+    left: 74.25%;
+    top: 21%;
+    z-index: 11;
+    height: 5%;
+    width: 5%;
+    opacity: 0;
+}
+
+
+#animationToggleEraser:checked ~ #eraser, 
+#animationToggleEraser:checked ~ #book {
+    animation-play-state: running;
+}
+
+
+#animationToggleEraser:not(:checked) ~ #eraser {
+    animation: none;
+}
+
+
+@keyframes erase {
+    0% {
+        left: 77%;
+    }
+    20% {
+        left: 56%
+    }
+    30% {
+        top: 26%;
+    }
+    35% {
+        top: 24%;
+    }
+    40% {
+        top: 26%;
+    }
+    45% {
+        top: 24%;
+    }
+    50% {
+        top: 26%;
+    }
+
+    100% {  
+        left: 56%;
+    }
+    
+}
+
+
+@keyframes erased {
+    0% {
+        opacity: 1;
+    }
+
+    80% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+/* Andreas kode slutt */
 
 
 /*Denne koden ble inspirert fra forelesning*/
@@ -154,6 +229,7 @@ body {
     }
 }
 
+
 .sun {
     position: absolute;
     top: 30%;
@@ -172,6 +248,7 @@ body {
     animation-delay: 5s;
 }
 
+
 .strand {
     position: absolute;
     bottom: 0;
@@ -182,7 +259,6 @@ body {
     z-index: -1;
 
 }
-
 
 
 /*Juni*/
@@ -206,9 +282,9 @@ body {
     z-index: 4;
     height: 7%;
     width: 7%;
-    opacity: 0; /* Hidden checkbox */
+    opacity: 0;
 }
 
 #animationToggle:checked ~ .Fire {
-    opacity: 1; /* Makes fire visible */
+    opacity: 1; /
 }
