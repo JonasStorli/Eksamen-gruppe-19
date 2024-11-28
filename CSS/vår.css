@@ -205,7 +205,26 @@ body {
 }
 
 
+/*Martin start*/
+#rainbow {
+    top: 15px;
+    left: 420px;
+    position: absolute;
+    width: 1200px;
+    z-index: -1;
+    animation: visibleRainbow 3s infinite;
+}
 
-    
-    
- 
+@keyframes visibleRainbow {
+    0% {opacity: 0.9;}
+    50% {opacity: 0.3;}
+    100% {opacity: 0.9;}
+}
+
+#stP {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: -2;
+}
