@@ -19,7 +19,7 @@
     top: -10%;
     height: 7%;
     width: 7%;
-    background-image: url("/Bilder/moustache.png");
+    background-image: url("/Bilder/moustache.png"); /* Bildet er hentet fra Google */
     background-size: contain;
     background-repeat: no-repeat;
     animation: moustacheRain linear infinite;
@@ -127,7 +127,7 @@
 #oktoberBody {
   font-family: Arial, sans-serif;
   text-align: center;
-  background-image: url(/Bilder/autumn.jpg);
+  background-image: url(/Bilder/autumn.jpg); /* Bildet er hentet fra Google */
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
@@ -143,7 +143,7 @@
   top: 13%;
   left: 70%;
   transform: translate(-50%, -50%);
-  background-image: url(/Bilder/transPumpkin.png);
+  background-image: url(/Bilder/transPumpkin.png); /* Bildet er hentet fra Google */
   width: 40px; 
   height: 40px; 
   background-size: contain;
@@ -153,7 +153,7 @@
 }
 
 .pumpkin:hover{
-  background-image: url(/Bilder/normalPumpkin.png);
+  background-image: url(/Bilder/normalPumpkin.png); /* Bildet er hentet fra Google */
 }
 
 
@@ -164,7 +164,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: url(/Bilder/fallingLeavs.png);
+  background: url(/Bilder/fallingLeavs.png); /* Bildet er hentet fra Google */
   background-size: 670px;
   z-index: -10;
   animation: fallingLeavs 700s linear infinite;
@@ -182,7 +182,7 @@
 
 
 #septemberBody{
-  background-image: url(/Bilder/september-hst-skog.jpg);
+  background-image: url(/Bilder/september-hst-skog.jpg); /* Bildet er hentet fra Google */
   background-repeat: no-repeat;
   background-position: center -20px;
   background-size: cover;
@@ -197,7 +197,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: url(/Bilder/regn.png);
+  background: url(/Bilder/regn.png); /* Bildet er hentet fra Google */
   background-size: 1000px;
   z-index: -2;
   animation: rain 50s linear infinite;
