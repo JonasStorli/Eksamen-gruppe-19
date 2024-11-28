@@ -2,7 +2,7 @@
   margin: 0;
   height: 90vh;
   width: 100%;
-  background-image: url("/Bilder/bakgrunn.gif");
+  background-image: url(../Bilder/bakgrunn.gif); /* Bildet er hentet fra Google */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
