@@ -57,6 +57,8 @@ body {
     z-index: -1;
     animation: drive 20s infinite;
 }
+
+
 /*Animasjon for sand buggy*/
 @keyframes drive {
     0% {
@@ -103,6 +105,8 @@ body {
         transform: scaleX(-1);
     }
 }
+
+
 /*Kode Martin slutter her*/
 
 

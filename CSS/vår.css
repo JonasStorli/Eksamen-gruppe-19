@@ -215,11 +215,13 @@ body {
     animation: visibleRainbow 3s infinite;
 }
 
+
 @keyframes visibleRainbow {
     0% {opacity: 0.9;}
     50% {opacity: 0.3;}
     100% {opacity: 0.9;}
 }
+
 
 #stPbackground {
     top: 0;
@@ -228,4 +230,6 @@ body {
     width: 100%;
     z-index: -2;
 }
+
+
 /*Kode Martin slutter her*/
