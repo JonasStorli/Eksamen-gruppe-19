@@ -47,10 +47,12 @@ section{
     filter: blur(1px);
 }
 
+
 @keyframes snowfall1 {
     0% { background-position: -10000px 0px; }
     100% { background-position: 0px 20000px; }
 }
+
 
 @keyframes snowfall2 {
     0% { background-position: -15010px 10px; }
@@ -71,6 +73,7 @@ section{
 
 }
 
+
 #mistleToe2 {
     cursor: pointer;
     position: absolute;
@@ -81,6 +84,7 @@ section{
     animation: mistletoe 1s ease-in-out infinite;
     animation-play-state: paused;
 }
+
 
 #mistleToe1:hover, #mistleToe2:hover {
     animation-play-state: running;
