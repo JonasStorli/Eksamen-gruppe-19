@@ -9,6 +9,7 @@ body {
     padding: 20px;
 }
 
+
 section{
     background-size: cover;
     width: 100%;
@@ -16,8 +17,6 @@ section{
     position: relative;
     overflow: hidden;
 }
-
-
 
 
 .snow1 {
@@ -32,6 +31,7 @@ section{
     animation: snowfall1 1000s linear infinite;
     filter: blur(0.5px);
 }
+
 
 .snow2 {
     position: fixed;
@@ -56,7 +56,6 @@ section{
     0% { background-position: -15010px 10px; }
     100% { background-position: 100px 20000px; }
 }
-
 
 
 /* Mistletoe - Laget av Andreas Skogly*/
@@ -87,12 +86,12 @@ section{
     animation-play-state: running;
 }
 
+
 @keyframes mistletoe {
     0%{transform:rotate(-5deg)}
     50%{transform:rotate(3deg)}
     100%{transform:rotate(-5deg)}
 }
-
 
 
 .Santa {
@@ -105,7 +104,6 @@ section{
     animation: moveSanta 10s linear;
     animation-play-state: paused;
 }
-
 
 
 #animationToggle {
@@ -125,11 +123,11 @@ section{
     animation-play-state: running;
 }
 
+
 /* Når checkbox ikke er aktivert, så nullstiller animasjonen seg - Andreas Skogly */
 #animationToggle:not(:checked) ~ .Santa { 
     animation: none;
 }
-
 
 
 @keyframes moveSanta{
@@ -142,11 +140,7 @@ section{
 }
 
 
-
-
-
 /* Kode for Januar raketter - laget av Andreas Skogly */
-
 #animationToggleRocket {
     position: absolute;
     cursor: pointer;
@@ -159,6 +153,8 @@ section{
     
 
 }
+
+
 /* Når checkbox er aktivert, så starter animasjon til rakett */
 #animationToggleRocket:checked ~ #fireworkRocket,
 #animationToggleRocket:checked ~ #fireworkRocket2,
@@ -180,7 +176,6 @@ section{
 }
 
 
-
 #fireworkRocket {
     position: absolute;
     transform: translate(-50%, -50%);
@@ -193,6 +188,8 @@ section{
     animation: rakettAnimasjon linear 1s ;
     animation-play-state: paused;
 }
+
+
 #fireworkRocket2 {
     position: absolute;
     transform: translate(-50%, -50%);
@@ -206,6 +203,8 @@ section{
     animation-play-state: paused;
 
 }
+
+
 #fireworkRocket3 {
     position: absolute;
     transform: translate(-50%, -50%);
@@ -232,6 +231,7 @@ section{
 #JanuarH1 {
     color: yellow;
 }
+
 
 #fireworkButton {
     background: black;
@@ -277,6 +277,7 @@ section{
     z-index: 2;
 
 }
+
 
 @keyframes rakettAnimasjon {
     0% {
