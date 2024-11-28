@@ -219,7 +219,31 @@ body {
     transform: scale(1.25);
 }
 
+/*Kode Martin starter her*/
+#rainbow {
+    top: 15px;
+    left: 420px;
+    position: absolute;
+    width: 1200px;
+    z-index: -1;
+    animation: visibleRainbow 3s infinite;
+}
 
-    
-    
- 
+
+@keyframes visibleRainbow {
+    0% {opacity: 0.9;}
+    50% {opacity: 0.3;}
+    100% {opacity: 0.9;}
+}
+
+
+#stPbackground {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: -2;
+}
+
+
+/*Kode Martin slutter her*/
