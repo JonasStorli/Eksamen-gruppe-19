@@ -234,6 +234,18 @@ ul {
 }
 
 
+#btn-theme-september:hover{
+    transform: scale(1.4);
+    transition: ease .5s, color 50ms ease-in;
+    color: transparent;
+    background: url("/Bilder/poteter.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px -12px;
+    
+}
+
+
 #btn-theme-oktober:hover{
     transform: scale(1.4);
     transition: ease .5s, color 50ms ease-in;
