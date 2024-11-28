@@ -22,7 +22,7 @@ nav a{
     margin: 20px;
 }
 
-
+/* Måned knapper på toppen */
 .nav-btn{
     display: inline-block;
     margin: 5px;
@@ -87,7 +87,7 @@ nav a{
     color: red; 
 }
 
-
+/* Dager navn over dato */
 ul {
     display: flex;
     position: absolute;
@@ -102,6 +102,7 @@ ul {
     transform: translate(-50%,-50%);
 }
 
+/* Dagene som fyller ut kalenderen fra forrige og framtidige måneder */
 .fillerDays {
     border:  3px grey;
     opacity: 0.3;
@@ -125,6 +126,8 @@ ul {
     
     
 }
+
+
 /* Kode Martin starter her*/
 /*Hover ved viktige dager*/
 /*Sankthans*/
@@ -266,8 +269,30 @@ ul {
 
 }
 
+#btn-theme-april:hover {
+    transform: scale(1.4);
+    transition: ease-in 350ms, color 50ms ease-in;
+    color: transparent;
+    background: url("/Bilder/april.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px -7px;
 
+}
 
+#btn-theme-mai:hover {
+    transform: scale(1.4);
+    transition: ease-in 350ms, color 50ms ease-in;
+    color: transparent;
+    background: url("/Bilder/mai-bakgrunn.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px -7px;
+
+}
+
+/*Kode fra Martin*/
+/*Hover ved navn på månedene*/
 /*Kode fra Martin start*/
 /*Hover ved navn på månedene, som gir knappene et tema*/
 #btn-theme-februar:hover{
@@ -408,7 +433,6 @@ ul {
     color: transparent;
     transform: scale(1.25);
 }
-
 
 
 .dager span.stPDay {
