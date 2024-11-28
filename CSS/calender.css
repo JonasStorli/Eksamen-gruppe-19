@@ -174,7 +174,7 @@ ul {
     background-color:red;
     font-weight: bold; 
 }
-/*Ikke kode fra Martin*/
+/*Kode fra Martin slutt*/
 
 
 #btn-theme-januar:hover {
@@ -246,8 +246,8 @@ ul {
 
 }
 
-/*Kode fra Martin*/
-/*Hover ved navn på månedene*/
+/*Kode fra Martin start*/
+/*Hover ved navn på månedene, som gir knappene et tema*/
 #btn-theme-februar:hover{
     transform: scale(1.4);
     transition: ease .5s, color 50ms ease-in;
@@ -256,8 +256,10 @@ ul {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0px -12px;
+}
 
-}#btn-theme-mars:hover{
+
+#btn-theme-mars:hover{
     transform: scale(1.4);
     transition: ease .5s, color 50ms ease-in;
     color: transparent;
@@ -265,8 +267,10 @@ ul {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0px -12px;
+}
 
-}#btn-theme-juli:hover{
+
+#btn-theme-juli:hover{
     transform: scale(1.4);
     transition: ease .5s, color 50ms ease-in;
     color: transparent;
@@ -276,15 +280,19 @@ ul {
     background-position: 0px -12px;
 }
 
+
 .halloween:hover::after{
     content: "Halloween";
     color: black;
     transform: translate(-9px);
 }
+
+
 .halloween:hover{
     color: transparent;
     transform: scale(1.25);
 }
+
 
 .christmas:hover::after {
     content: "Julaften";
@@ -292,10 +300,12 @@ ul {
     transform: translate(-9px);
 }
 
+
 .christmas:hover {
     color: transparent;
     transform: scale(1.25);
 }
+
 
 /*Valentines*/
 .valentines:hover::after {
@@ -304,19 +314,23 @@ ul {
     transform: translate(-9px);
 }
 
+
 .valentines:hover {
     color: transparent;
     transform: scale(1.25);
 }
+
 
 .dager span.valentines {
     background-color: pink;
     font-weight: bold;
 }
 
+
 .dager span.halloween {
     background-color: orange;
 }
+
 
 /*Påske*/
 .dager span.easter {
@@ -324,47 +338,59 @@ ul {
     font-weight: bold; 
 }
 
+
 .easter:hover {
     color: transparent;
     transform: scale(1.25);
 }
+
 
 #easter1:hover::after {
     content: "Skjærtorsdag";
     color: black;
     transform: translate(-9px);
 }
+
+
 #easter2:hover::after {
     content: "Langfredag";
     color: black;
     transform: translate(-9px);
 }
+
+
 #easter3:hover::after {
     content: "1. påskedag";
     color: black;
     transform: translate(-9px);
 }
+
+
 #easter4:hover::after {
     content: "2. påskedag";
     color: black;
     transform: translate(-9px);
 }
 
+
 /*St. Patricks dag*/
-.stP:hover::after {
+.stPDay:hover::after {
     content: "St. Patricks Dag";
     color: black;
     transform: translate(-9px);
 }
 
-.stP:hover {
+
+.stPDay:hover {
     color: transparent;
     transform: scale(1.25);
 }
 
-.dager span.stP {
+
+.dager span.stPDay {
     background-color:chartreuse;
     font-weight: bold; 
 }
 
 
+/*Kode fra Martin slutt*/

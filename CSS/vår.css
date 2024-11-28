@@ -205,7 +205,7 @@ body {
 }
 
 
-/*Martin start*/
+/*Kode Martin starter her*/
 #rainbow {
     top: 15px;
     left: 420px;
@@ -221,10 +221,11 @@ body {
     100% {opacity: 0.9;}
 }
 
-#stP {
+#stPbackground {
     top: 0;
     left: 0;
     position: absolute;
     width: 100%;
     z-index: -2;
 }
+/*Kode Martin slutter her*/
