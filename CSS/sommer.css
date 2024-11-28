@@ -120,6 +120,7 @@ body {
     animation-play-state: paused;
 }
 
+
 #eraser {
     position: absolute;
     top: 24%;
@@ -133,6 +134,7 @@ body {
     animation-play-state: paused;
 }
 
+
 #animationToggleEraser {
     position: absolute;
     cursor: pointer;
@@ -144,10 +146,12 @@ body {
     opacity: 0;
 }
 
+
 #animationToggleEraser:checked ~ #eraser, 
 #animationToggleEraser:checked ~ #book {
     animation-play-state: running;
 }
+
 
 #animationToggleEraser:not(:checked) ~ #eraser {
     animation: none;
@@ -183,6 +187,7 @@ body {
     
 }
 
+
 @keyframes erased {
     0% {
         opacity: 1;
@@ -196,7 +201,6 @@ body {
         opacity: 0;
     }
 }
-
 /* Andreas kode slutt */
 
 
