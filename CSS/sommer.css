@@ -208,12 +208,6 @@ body {
 /* Andreas kode slutt */
 
 
-/*Denne koden ble inspirert fra forelesning*/
-body {
-    background-color: lightblue;
-}
-
-
 @keyframes sunMovement {
     0% {
         top: 50%;
@@ -261,7 +255,7 @@ body {
 }
 
 
-/*Juni*/
+/*Juni laget av jonas (legger til et bål)*/
 .Fire {
     position: absolute;
     width: 400px;

@@ -136,6 +136,8 @@
   z-index: 0;
 }
 
+
+/*Legger til gresskar som kan være on/off*/
 .pumpkin {
   position: absolute;
   top: 13%;
@@ -155,6 +157,7 @@
 }
 
 
+/*blader faller fra toppen*/
 .leavs {
   position: fixed;
   top: 0;
@@ -177,8 +180,6 @@
   }
 }
 
-/* Kode slutt Jonas */
-
 
 #septemberBody{
   background-image: url(/Bilder/september-hst-skog.jpg);
@@ -187,6 +188,8 @@
   background-size: cover;
 }
 
+
+/*Regn faller fra toppen*/
 .rain {
   position: fixed;
   padding-left: 0px;
@@ -195,7 +198,7 @@
   width: 100%;
   height: 100%;
   background: url(/Bilder/regn.png);
-  background-size: 1000px; /* Larger snowflakes */
+  background-size: 1000px;
   z-index: -2;
   animation: rain 50s linear infinite;
   filter: blur(1px);
@@ -208,3 +211,4 @@
   0% { background-position: 1000px 0px; }
   100% { background-position: 0px 20000px; }
 }
+/* Kode slutt Jonas */
