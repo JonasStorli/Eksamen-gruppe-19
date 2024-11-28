@@ -2,7 +2,7 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-image: url(/Bilder/vinterCabin.jpg);
+    background-image: url(/Bilder/vinterCabin.jpg);  /* Bildet er hentet fra Google */
     background-repeat: no-repeat;
     background-position: center -20px;
     background-size: cover;
@@ -27,8 +27,8 @@ section{
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(/Bilder/pngeggsnow.png);
-    background-size: 800px; /* Adjust snowflake size */
+    background: url(/Bilder/pngeggsnow.png);/* Bildet er hentet fra Google */
+    background-size: 800px; 
     z-index: -1;
     animation: snowfall1 1000s linear infinite;
     filter: blur(0.5px);
@@ -43,7 +43,7 @@ section{
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(/Bilder/pngeggsnow.png);
+    background: url(/Bilder/pngeggsnow.png); /* Bildet er hentet fra Google */
     background-size: 700px;
     z-index: -2;
     animation: snowfall2 1000s linear infinite;
