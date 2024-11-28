@@ -117,6 +117,7 @@ ul {
     
 }
 /* Kode Martin starter her*/
+/*Hover ved viktige dager*/
 /*Sankthans*/
 .blue:hover::after {
     content: "Sankthans";
@@ -197,6 +198,19 @@ ul {
     background-position: 0px -12px;
 }
 
+
+#btn-theme-august:hover {
+    transform: scale(1.4);
+    transition: ease 350ms, color 50ms ease-in;
+    color: transparent;
+    background: url("/Bilder/backtoschool.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px -3px;
+
+}
+
+
 #btn-theme-oktober:hover{
     transform: scale(1.4);
     transition: ease .5s, color 50ms ease-in;
@@ -208,6 +222,19 @@ ul {
     
 }
 
+
+#btn-theme-november:hover {
+    transform: scale(1.4);
+    transition: ease 350ms, color 50ms ease-in;
+    color: transparent;
+    background: url("/Bilder/moustache.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px -12px;
+
+}
+
+
 #btn-theme-desember:hover {
     transform: scale(1.4);
     transition: ease 350ms, color 50ms ease-in;
@@ -217,6 +244,36 @@ ul {
     background-repeat: no-repeat;
     background-position: 0px -12px;
 
+}
+
+/*Kode fra Martin*/
+/*Hover ved navn på månedene*/
+#btn-theme-februar:hover{
+    transform: scale(1.4);
+    transition: ease .5s, color 50ms ease-in;
+    color: transparent;
+    background: url("/Bilder/hearts.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px -12px;
+
+}#btn-theme-mars:hover{
+    transform: scale(1.4);
+    transition: ease .5s, color 50ms ease-in;
+    color: transparent;
+    background: url("/Bilder/stp1.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px -12px;
+
+}#btn-theme-juli:hover{
+    transform: scale(1.4);
+    transition: ease .5s, color 50ms ease-in;
+    color: transparent;
+    background: url("/Bilder/julitheme.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px -12px;
 }
 
 .halloween:hover::after{
@@ -310,292 +367,4 @@ ul {
     font-weight: bold; 
 }
 
-/*Sand buggy*/
-#buggy {
-    position: absolute;
-    height: 80px;
-    z-index: -1;
-    animation: drive 20s infinite;
-}
-/*Animasjon for sand buggy*/
-@keyframes drive {
-    0% {
-        left: 50px;
-        top: 650px;
-        transform: scaleX(1);
-    }
-    5% {
-        left: 150px;
-        top: 680px;
-        transform: rotate(360deg) scaleX(1);
-    }
-    25% {
-        left: 512px;
-        top: 600px;
-        transform: scaleX(1);
-    }
-    35% {
-        left: 500px;
-        top: 700px;
-        transform: scaleX(1);
-    }
-    40% {
-        left: 500px;
-        top: 700px;
-        transform: scaleX(1);
-    }
-    50% {
-        left: 500px;
-        top: 650px;
-        transform: scaleX(1);
-    }
-    90% {
-        left: 90%; 
-        top: 650px;
-        transform: scaleX(1);
-    }
-    91% {
-        transform: scaleX(-1);
-    }
-    100% {
-        left: 50px;
-        top: 650px;
-        transform: scaleX(-1);
-    }
-}
 
-
-/* Kode for Januar raketter */
-
-#animationToggleRocket {
-    position: absolute;
-    cursor: pointer;
-    left: 40.8%;
-    top: 29.2%;
-    z-index: 4;
-    height: 10%;
-    width: 5%;
-    opacity: 1;
-
-}
-
-
-
-#animationToggleRocket:checked ~ #fireworkRocket,
-#animationToggleRocket:checked ~ #fireworkRocket2,
-#animationToggleRocket:checked ~ #fireworkRocket3 {
-    animation-play-state: running;
-}
-
-/* Når checkbox ikke er aktivert, så nullstiller animasjonen seg - Andreas Skogly */
-#animationToggleRocket:not(:checked) ~ #fireworkRocket,
-#animationToggleRocket:not(:checked) ~ #fireworkRocket2,
-#animationToggleRocket:not(:checked) ~ #fireworkRocket3 {
-    animation: none;
-}
-
-
-
-#fireworkRocket {
-    position: absolute;
-    transform: translate(-50%, -50%);
-    height: 80px;
-    width: 80px;
-    top: 120%;
-    left: 53%;
-    z-index: 1;
-    opacity: 1;
-    animation: rakettAnimasjon linear 1s infinite;
-    animation-play-state: paused;
-}
-#fireworkRocket2 {
-    position: absolute;
-    transform: translate(-50%, -50%);
-    height: 80px;
-    width: 80px;
-    top: 120%;
-    left: 35%;
-    z-index: 1;
-    opacity: 1;
-    animation: rakettAnimasjon2 linear 1s infinite;
-    animation-play-state: paused;
-
-}
-#fireworkRocket3 {
-    position: absolute;
-    transform: translate(-50%, -50%);
-    height: 80px;
-    width: 80px;
-    top: 120%;
-    left: 70%;
-    z-index: 1;
-    opacity: 1;
-    animation: rakettAnimasjon3 linear 1s infinite;
-    animation-play-state: paused;
-
-}
-
-
-.JanuarBody {
-    background: url("/Bilder/newyearsbackground.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    
-}
-
-
-#JanuarH1 {
-    color: yellow;
-}
-
-#fireworkButton {
-    background: black;
-}
-
-#fireworkButton:hover {
-    transform: scale(1.25);
-    transition: 500ms;
-    cursor: pointer;
-}
-
-#fireworkEksplosjon {
-    position: absolute;
-    top: 60%;
-    left: 38%;
-    height: 400px;
-    width: 400px;
-    transform: translate(-50%, -50%);
-    opacity: 1;
-    animation: rakettEksplosjon
-}
-
-@keyframes rakettAnimasjon {
-    0% {
-        opacity: 1;
-        top: 110%;
-        left: 53%;
-    }
-
-    10% {
-        top: 90%;
-        left: 54%;
-    }
-
-    20% {
-        top: 80%;
-        left: 53%;
-    }
-
-    50% {
-        top: 70%; 
-        left: 54%;
-    }
-
-
-    60% {
-        top: 60%;
-        left: 53%;
-    }
-
-    80% {
-        top: 50%;
-        left: 54%;
-   }
-
-   100% {
-        top: 40%;
-        left: 53%;
-   }
-
-   
-}
-@keyframes rakettAnimasjon2 {
-    0% {
-        opacity: 1;
-        top: 110%;
-        left: 35%;
-    }
-
-    10% {
-        top: 90%;
-        left: 34%;
-    }
-
-    20% {
-        top: 80%;
-        left: 35%;
-    }
-
-    50% {
-        top: 70%; 
-        left: 34%;
-    }
-
-
-    60% {
-        top: 60%;
-        left: 35%;
-    }
-
-    80% {
-        top: 50%;
-        left: 34%;
-   }
-
-   100% {
-        top: 40%;
-        left: 35%;
-   }
-
-   
-}
-@keyframes rakettAnimasjon3 {
-    0% {
-        opacity: 1;
-        top: 110%;
-        left: 71%;
-    }
-
-    10% {
-        top: 90%;
-        left: 70%;
-    }
-
-    20% {
-        top: 80%;
-        left: 71%;
-    }
-
-    50% {
-        top: 70%; 
-        left: 70%;
-    }
-
-
-    60% {
-        top: 60%;
-        left: 71%;
-    }
-
-    80% {
-        top: 50%;
-        left: 70%;
-   }
-
-   100% {
-        top: 40%;
-        left: 71%;
-   }
-
-   
-}
-
-@keyframes rakettEksplosjon {
-    0% {
-        
-    }
-    
-    100% {
-
-    }
-}
