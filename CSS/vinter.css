@@ -4,7 +4,7 @@ body {
     text-align: center;
     background-image: url(/Bilder/vinterCabin.jpg);
     background-repeat: no-repeat;
-    background-position: -20px -300x;
+    background-position: center -20px;
     background-size: cover;
     margin: 0;
     padding: 20px;
