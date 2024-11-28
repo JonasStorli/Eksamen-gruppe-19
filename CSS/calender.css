@@ -22,7 +22,7 @@ nav a{
     margin: 20px;
 }
 
-
+/* Måned knapper på toppen */
 .nav-btn{
     display: inline-block;
     margin: 5px;
@@ -87,7 +87,7 @@ nav a{
     color: red; 
 }
 
-
+/* Dager navn over dato */
 ul {
     display: flex;
     position: absolute;
@@ -102,6 +102,7 @@ ul {
     transform: translate(-50%,-50%);
 }
 
+/* Dagene som fyller ut kalenderen fra forrige og framtidige måneder */
 .fillerDays {
     border:  3px grey;
     opacity: 0.3;
@@ -125,6 +126,8 @@ ul {
     
     
 }
+
+
 /* Kode Martin starter her*/
 /*Hover ved viktige dager*/
 /*Sankthans*/
