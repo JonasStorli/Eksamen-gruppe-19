@@ -286,5 +286,5 @@ body {
 }
 
 #animationToggle:checked ~ .Fire {
-    opacity: 1; /
+    opacity: 1;
 }
