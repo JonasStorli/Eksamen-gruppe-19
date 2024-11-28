@@ -1,9 +1,11 @@
-/*Denne koden ble inspirert fra forelesning*/
+/*Kode av Jens, insperert fra Zoom forelesning*/
+/*Lager en lys og fin bakgrunn for sommeren*/
 body {
     background-color: lightblue;
 }
 
 
+/*Animasjon på solen som går fra venstre til høyre*/
 @keyframes sunMovement {
     0% {
         top: 50%;
@@ -14,11 +16,13 @@ body {
     }
     100% {
         top: 60%;
-        background-color: orangered;
+        background-color: orangered; /*Solen endrer farge før den går ned*/
         left: 100%;
     }
 }
 
+
+/*Posisjonering, animasjon og utseende av solen*/
 .sun {
     position: absolute;
     top: 30%;
@@ -37,6 +41,8 @@ body {
     animation-delay: 5s;
 }
 
+
+/*Posisjonering og farge av stranden i bunnen av bakgrunnen*/
 .strand {
     position: absolute;
     bottom: 0;
@@ -47,6 +53,7 @@ body {
     z-index: -1;
 
 }
+/*Kode Jens slutt*/
 
 /*Kode Martin starter her*/
 
