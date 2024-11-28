@@ -246,6 +246,28 @@ ul {
 
 }
 
+#btn-theme-april:hover {
+    transform: scale(1.4);
+    transition: ease-in 350ms, color 50ms ease-in;
+    color: transparent;
+    background: url(/Bilder/april.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px -7px;
+
+}
+
+#btn-theme-mai:hover {
+    transform: scale(1.4);
+    transition: ease-in 350ms, color 50ms ease-in;
+    color: transparent;
+    background: url(/Bilder/mai-bakgrunn.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px -7px;
+
+}
+
 /*Kode fra Martin*/
 /*Hover ved navn på månedene*/
 #btn-theme-februar:hover{

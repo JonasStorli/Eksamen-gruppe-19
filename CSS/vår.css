@@ -116,7 +116,7 @@ body {
     top: -10%;
     height: 7%;
     width: 7%;
-    background-image: url();
+    background-image: url(/Bilder/iskrem.png);
     background-size: contain;
     background-repeat: no-repeat;
     animation: fall linear infinite;
@@ -204,6 +204,20 @@ body {
     100%{transform:rotate(-5deg)}
 }
 
+#syttendeMai {
+    background-image: url(/Bilder/Mai-tog.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+}
+
+#syttendeMai:hover {
+    transform: scale(1.25);
+}
 
 
     
