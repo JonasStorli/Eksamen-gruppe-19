@@ -110,12 +110,11 @@ section{
 }
 
 
-
 #animationToggle {
     position: absolute;
     cursor: pointer;
     left: 38.8%;
-    top: 66%;
+    top: 63%;
     z-index: 4;
     height: 10%;
     width: 10%;
@@ -448,6 +447,8 @@ section{
 
 /*Kode Martin starter her*/
 /*Valentines*/
+
+/*Hover for 14 februar/valentines*/
 .valentines:hover::after {
     content: "Valentines";
     color: black;
@@ -455,18 +456,21 @@ section{
 }
 
 
+/*Eksisterende content for 14 februar blir borte ved hover*/
 .valentines:hover {
     color: transparent;
     transform: scale(1.25);
 }
 
 
+/*Gir 14 feb rosa bakgrunn*/
 .dager span.valentines {
     background-color: pink;
     font-weight: bold;
 }
 
 
+/*Setter bakgrunn for februar*/
 #valentinesBack {
     position: absolute;
     z-index: -1;
@@ -476,6 +480,7 @@ section{
 }
 
 
+/*Lager et pumpende hjerte*/
 #heartPump {
     position: absolute;
     top: 110px;
@@ -487,6 +492,7 @@ section{
 }
 
 
+/*Animasjon for pumpende hjerte*/
 @keyframes heartPump {
     0% {height: 150px;}
     35% {height: 150px;}
@@ -494,5 +500,6 @@ section{
     60% {height: 200px;}
     66% {height: 150px;}
 }
+
 
 /*Kode Martin slutter her*/
